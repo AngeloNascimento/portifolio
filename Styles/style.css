@@ -125,6 +125,10 @@ body{
     }
     .apresentacao{/*após a condicional add os elementos a serem alterados*/
         flex-direction: column-reverse;/*column-reverse inverte a ordem dos elemenetos*/
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
     }
     
 }/*@media serve como uma condicional, que de acordo com o tamanho da tela ele adciona as configurações adequadas*/
